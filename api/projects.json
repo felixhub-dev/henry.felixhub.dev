@@ -1,4 +1,4 @@
-{
+{ // This file supports comments
     "$schema": "projects.schema.json",
     "projects": [
         {
@@ -18,6 +18,7 @@
             "description": "This website!",
             "links": {
                 // "icon": "https://felixhub.dev/favicon.ico",
+                "icon": "https://cdn.discordapp.com/icons/1366276472548888759/7a997464ccd221690a7450bdbda5de90.webp?size=160&quality=lossless",
                 "url": "https://felixhub.dev",
                 "github": "https://github.com/felixhub-dev/felixhub.dev",
                 "discord": "https://discord.felixhub.dev",
@@ -31,6 +32,8 @@
             "id": "lux",
             "description": "A luxurious package manager for Lua.",
             "links": {
+                // TODO: fix icon
+                // "icon": "https://github.com/nvim-neorocks/lux/raw/master/lux-logo.svg",
                 "github": "https://github.com/nvim-neorocks/lux"
             }
         },
@@ -39,6 +42,8 @@
             "id": "insomnia",
             "description": "An open-source API client for GraphQL and REST.",
             "links": {
+                // TODO: fix icon
+                // "icon": "https://insomnia.rest/favicon.ico",
                 "github": "https://github.com/Kong/insomnia",
                 "url": "https://insomnia.rest"
             }
@@ -48,6 +53,7 @@
             "id": "desmodder",
             "description": "Supercharge your Desmos graph creation and sharing experience with many convenient features",
             "links": {
+                "icon": "https://github.com/DesModder/DesModder/blob/main/assets/desmodder.png?raw=true",
                 "github": "https://github.com/DesModder/DesModder"
             }
         }
