@@ -6,6 +6,7 @@
             "id": "prometheus",
             "description": "An all-in-one cosmetic unlocker for Lunar Client and Essential Mod.",
             "links": {
+                "url": "{{github}}", // {{url}} gets resolved before {{github}} does
                 "icon": "https://avatars.githubusercontent.com/u/184436154",
                 "github": "https://github.com/prometheusreengineering/",
                 "discord": "https://discord.gg/5Z2c6a3"
@@ -16,7 +17,7 @@
             "id": "felixhub",
             "description": "This website!",
             "links": {
-                "icon": "https://felixhub.dev/favicon.ico",
+                // "icon": "https://felixhub.dev/favicon.ico",
                 "url": "https://felixhub.dev",
                 "github": "https://github.com/felixhub-dev/felixhub.dev",
                 "discord": "https://discord.felixhub.dev",
