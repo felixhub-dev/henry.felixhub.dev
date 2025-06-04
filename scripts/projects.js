@@ -26,9 +26,9 @@ function renderProjects() {
     $('projects-loading').classList.add("hidden");
 
     const projectsHTML = replaceProjects(projects.projects);
-    $('my-projects').innerHTML += projectsHTML;
+    $('my-projects').innerHTML = projectsHTML;
     const contributedHTML = replaceProjects(projects.contributions);
-    $('my-contributions').innerHTML += contributedHTML;
+    $('my-contributions').innerHTML = contributedHTML;
 
 
     $('projects-container').classList.remove("hidden");
