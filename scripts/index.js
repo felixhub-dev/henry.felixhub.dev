@@ -54,6 +54,15 @@ username.onclick = function() {
 
 // function for the buttons
 function loadSubPage(page) {
+    console.log(document.location.hash, " vs ", page);
+    if (document.location.hash === "#" + page || document.location.hash === "#" || !page) {
+        // clear page
+        $('target').innerHTML = "";
+        $('target').classList.add('hidden');
+        document.location.hash = "";
+        return;
+    }
+    $('target').classList.remove('hidden');
     document.location.hash = page;
     let onLoad;
     switch (page) {
