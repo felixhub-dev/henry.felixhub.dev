@@ -32,8 +32,7 @@
             "id": "lux",
             "description": "A luxurious package manager for Lua.",
             "links": {
-                // TODO: fix icon
-                // "icon": "https://github.com/nvim-neorocks/lux/raw/master/lux-logo.svg",
+                "icon": "https://github.com/nvim-neorocks/lux/raw/master/lux-logo.svg",
                 "url": "{{github}}",
                 "github": "https://github.com/nvim-neorocks/lux"
             }
