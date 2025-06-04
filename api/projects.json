@@ -34,6 +34,7 @@
             "links": {
                 // TODO: fix icon
                 // "icon": "https://github.com/nvim-neorocks/lux/raw/master/lux-logo.svg",
+                "url": "{{github}}",
                 "github": "https://github.com/nvim-neorocks/lux"
             }
         },
@@ -44,6 +45,7 @@
             "links": {
                 // TODO: fix icon
                 // "icon": "https://insomnia.rest/favicon.ico",
+                "icon": "https://raw.githubusercontent.com/Kong/insomnia/refs/heads/develop/packages/insomnia/src/ui/images/insomnia-logo.svg",
                 "github": "https://github.com/Kong/insomnia",
                 "url": "https://insomnia.rest"
             }
@@ -54,6 +56,7 @@
             "description": "Supercharge your Desmos graph creation and sharing experience with many convenient features",
             "links": {
                 "icon": "https://github.com/DesModder/DesModder/blob/main/assets/desmodder.png?raw=true",
+                "url": "{{github}}",
                 "github": "https://github.com/DesModder/DesModder"
             }
         }
