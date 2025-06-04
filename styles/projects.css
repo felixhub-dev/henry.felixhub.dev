@@ -34,9 +34,25 @@
 .project-main-link:hover {
     text-decoration: underline;
 }
+.project-links {
+    width: 5vw;
+    margin-right: 2.5%;
+}
+.project-link {
+    margin: 10px 10px !important;
+    border-radius: 10px !important;
+    background-color: rgba(181, 181, 181, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit !important;
+    height: inherit !important;
+}
 .project-info {
-    width: 25vw;
-    min-width: 25vw;
+    width: 90%;
+    max-width: 25vw;
+    min-width: 10vw;
+    margin: 5px;
 }
 .project-image {
     width: 50%;

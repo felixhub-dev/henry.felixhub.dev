@@ -43,10 +43,10 @@
             "id": "insomnia",
             "description": "An open-source API client for GraphQL and REST.",
             "links": {
-                // TODO: fix icon
-                // "icon": "https://insomnia.rest/favicon.ico",
                 "icon": "https://raw.githubusercontent.com/Kong/insomnia/refs/heads/develop/packages/insomnia/src/ui/images/insomnia-logo.svg",
                 "github": "https://github.com/Kong/insomnia",
+                // TODO: also add a slack icon
+                "slack": "https://chat.insomnia.rest/",
                 "url": "https://insomnia.rest"
             }
         },
@@ -57,7 +57,8 @@
             "links": {
                 "icon": "https://github.com/DesModder/DesModder/blob/main/assets/desmodder.png?raw=true",
                 "url": "{{github}}",
-                "github": "https://github.com/DesModder/DesModder"
+                "github": "https://github.com/DesModder/DesModder",
+                "discord": "https://discord.gg/jMqKHnyyph"
             }
         }
     ]

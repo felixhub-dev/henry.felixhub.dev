@@ -39,12 +39,18 @@
                             "format": "uri",
                             "description": "Discord server URL for the project"
                         },
+                        "slack": {
+                            "type": "string",
+                            "format": "uri",
+                            "description": "Slack channel URL for the contribution"
+                        },
                         "modrinth": {
                             "type": "string",
                             "format": "uri",
                             "description": "Modrinth project URL"
                         }
-                    }
+                    },
+                    "required": ["url"]
                 }
             },
             "required": ["name", "description", "icon", "links"]
@@ -87,12 +93,18 @@
                             "format": "uri",
                             "description": "Discord server URL for the contribution"
                         },
+                        "slack": {
+                            "type": "string",
+                            "format": "uri",
+                            "description": "Slack channel URL for the contribution"
+                        },
                         "modrinth": {
                             "type": "string",
                             "format": "uri",
                             "description": "Modrinth project URL"
                         }
-                    }
+                    },
+                    "required": ["url"]
                 }
             },
             "required": ["name", "description", "icon", "links"]
