@@ -1,9 +1,10 @@
-<div class="project" id="project-{{ id }}">
-    <h2 class="project-title">{{ title }}</h2>
-    <p class="project-description">{{ description }}</p>
+<div class="project" id="project-{{id}}">
+    <img class="project-image {{icon_hidden}}" id="project-{{id}}-icon" src="{{icon}}" alt="{{name}} icon" />
+    <a href="{{url}}"><h2 class="project-title">{{name}}</h2></a>
+    <p class="project-description">{{description}}</p>
     <div class="project-links">
         <!--Buttons-->
-        <a href="{{ discord_url }}" class="glass logo{{ discord_hidden }}" id="discord-container" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="/images/discord.svg" alt="Discord" id="discord-logo"/></a>
-        <a href="{{ github_url }}" class="glass logo{{ github_hidden }}" id="github-container" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="/images/github.svg" alt="GitHub" id="github-logo"/></a>
+        <a href="{{discord}}" class="glass logo {{discord_hidden}}" id="discord-container" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="/images/discord.svg" alt="Discord" id="discord-logo"/></a>
+        <a href="{{github}}" class="glass logo {{github_hidden}}" id="github-container" target="_blank" rel="noopener noreferrer"><img class="contact-logo" src="/images/github.svg" alt="GitHub" id="github-logo"/></a>
     </div>
 </div>

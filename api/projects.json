@@ -3,18 +3,20 @@
     "projects": [
         {
             "name": "Prometheus",
+            "id": "prometheus",
             "description": "An all-in-one cosmetic unlocker for Lunar Client and Essential Mod.",
-            "icon": "https://avatars.githubusercontent.com/u/184436154",
             "links": {
+                "icon": "https://avatars.githubusercontent.com/u/184436154",
                 "github": "https://github.com/prometheusreengineering/",
                 "discord": "https://discord.gg/5Z2c6a3"
             }
         },
         {
             "name": "Felixhub.dev",
+            "id": "felixhub",
             "description": "This website!",
-            "icon": "https://felixhub.dev/favicon.ico",
             "links": {
+                "icon": "https://felixhub.dev/favicon.ico",
                 "url": "https://felixhub.dev",
                 "github": "https://github.com/felixhub-dev/felixhub.dev",
                 "discord": "https://discord.felixhub.dev",
@@ -25,6 +27,7 @@
     "contributions":[
         {
             "name": "Lux",
+            "id": "lux",
             "description": "A luxurious package manager for Lua.",
             "links": {
                 "github": "https://github.com/nvim-neorocks/lux"
@@ -32,6 +35,7 @@
         },
         {
             "name": "Insomnia",
+            "id": "insomnia",
             "description": "An open-source API client for GraphQL and REST.",
             "links": {
                 "github": "https://github.com/Kong/insomnia",
@@ -40,6 +44,7 @@
         },
         {
             "name": "Desmodder",
+            "id": "desmodder",
             "description": "Supercharge your Desmos graph creation and sharing experience with many convenient features",
             "links": {
                 "github": "https://github.com/DesModder/DesModder"
