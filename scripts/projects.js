@@ -2,7 +2,12 @@ let projects;
 let template;
 function projectsOnLoad() {
     console.log("projectsOnLoad");
-    fetch("/api/projects.json").then(response => response.json()).then(data => {
+    fetch("/api/projects.json").then(response => 
+        response = response.text()
+    ).then( response =>
+        // Bad hack: comments have to have a space after the // or /* to not break quote parsing
+        JSON.parse(response.replaceAll(/\/\/ (.*?)\n/gi,"").replaceAll(/\/\* (.*?)\*\//gmi, "")) // remove comments
+    ).then(data => {
         console.log(data);
         projects = data;
         if (!!projects && !!template) { // either this or the other one will finish first, so it should *in theory* only run once
