@@ -1,0 +1,62 @@
+.logo {
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px;
+    border-radius: 10px !important;
+    background-color: rgba(181, 181, 181, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact {
+    display: grid;
+    grid-template-columns: repeat(var(--contact-grid-columns), minmax(0, 1fr));
+    grid-template-rows: repeat(var(--contact-grid-rows), minmax(0, 1fr));
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    grid-gap: 5%;
+    gap: 5%;
+}
+.contact-logo {
+    height: 100%;
+    min-height: 20px;
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#discord-container {
+    background-color: rgba(115, 137, 220, 1);
+}
+#discord-logo {
+    border-radius: 10px;
+    padding: 0px 5%;
+}
+#github-container {
+    background-color: rgba(0,0,0,1);
+}
+#github-logo {
+    border-radius: 10px;
+}
+#reddit-logo {
+    border-radius: 10px;
+    box-shadow: none;
+    text-shadow: none;
+    width: 100%;
+    object-fit: cover;
+}
+#reddit-container {
+    background-color: hsla(16, 100%, 50%, 1);
+}
+#steam-container {
+    background-color: black;
+}
+#mastodon-container {
+    background-color: #6364f1;
+}
+#modrinth-container {
+    background-color: #00af5c; 
+}
