@@ -4,8 +4,49 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2) !important;
     border: none;
     border-radius: 5px !important;
+    color: white !important;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px;
+  /* background-color: rgba(255, 255, 255, 0.2) !important; */
+    border: none;
+    border-radius: 5px !important;
+    color: white !important;
+    cursor: default;
+    transition: background-color 0.3s ease;
+}
+.project-main-link {
     color: white;
+    text-decoration: none;
+    text-decoration-color: white;;
+}
+.project-main-link:hover {
+    text-decoration: underline;
+}
+.project-info {
+    width: 25vw;
+    min-width: 25vw;
+}
+.project-image {
+    width: 50%;
+    max-width: 10vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(181, 181, 181, 0.9);
+    margin: 10px;
+}
+#project-desmodder-icon {
+    background-color: rgb(53, 141, 68);
 }
