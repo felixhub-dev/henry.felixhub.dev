@@ -5,7 +5,7 @@
 :root {
     --contact-grid-rows: 2;
     --contact-grid-columns: 3;
-    overflow: hidden;
+    overflow-x: hidden;
     --background-width: 100vw;
     --background-height: auto;
 }
