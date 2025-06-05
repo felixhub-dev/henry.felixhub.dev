@@ -52,12 +52,23 @@
         {
             "name": "Desmodder",
             "id": "desmodder",
-            "description": "Supercharge your Desmos graph creation and sharing experience with many convenient features",
+            "description": "Supercharge your Desmos graph creation and sharing experience with many convenient features.",
             "links": {
                 "icon": "https://github.com/DesModder/DesModder/blob/main/assets/desmodder.png?raw=true",
                 "url": "{{github}}",
                 "github": "https://github.com/DesModder/DesModder",
                 "discord": "https://discord.gg/jMqKHnyyph"
+            }
+        },
+        {
+            "name": "Vencord",
+            "id": "vencord",
+            "description": "The cutest Discord client mod.",
+            "links": {
+                "icon": "https://vencord.dev/assets/favicon.png",
+                "url": "https://vencord.dev",
+                "github": "https://githun.com/vendicated/vencord",
+                "discord": "https://discord.gg/vencord"
             }
         }
     ]
