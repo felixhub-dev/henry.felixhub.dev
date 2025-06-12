@@ -53,9 +53,10 @@ username.onclick = function() {
 }
 
 // function for the buttons
-function loadSubPage(page) {
+function loadSubPage(page, firstLoad) {
     console.log(document.location.hash, " vs ", page);
-    if (document.location.hash === "#" + page || document.location.hash === "#" || !page) {
+    if ((document.location.hash === "#" + page || document.location.hash === "#" || !page) && !firstLoad) {
+        // console.log("First load: ", firstLoad);
         // clear page
         $('target').innerHTML = "";
         $('target').classList.add('hidden');
@@ -116,5 +117,7 @@ function loadSubPage(page) {
 // #projects, #contact, #photos
 console.log(document.location.hash);
 if (document.location.hash) {
-    loadSubPage(document.location.hash.substring(1)); // remove the #
+    let location = document.location.hash;
+    document.location.hash = "";
+    loadSubPage(location.substring(1), true); // remove the #
 }
