@@ -1,5 +1,5 @@
 let projects;
-let template;
+let project_template;
 function projectsOnLoad() {
     console.log("projectsOnLoad");
     fetch("/api/projects.json").then(response => 
@@ -10,18 +10,18 @@ function projectsOnLoad() {
     ).then(data => {
         console.log(data);
         projects = data;
-        if (!!projects && !!template) { // either this or the other one will finish first, so it should *in theory* only run once
+        if (!!projects && !!project_template) { // either this or the other one will finish first, so it should *in theory* only run once
             renderProjects();
         }
     });
     fetch("/html/templates/project.html").then(response => response.text()).then(data => {
         console.log(data);
-        template = data;
-        if (!!projects && !!template) {
+        project_template = data;
+        if (!!projects && !!project_template) {
             renderProjects();
         }
     });
-    console.log(template);
+    console.log(project_template);
 
     $('projects-loading').classList.remove("hidden");
 }
@@ -43,7 +43,7 @@ function replaceProjects(projects) {
     for (let i = 0; i < projects.length; i++) {
         let project = projects[i];
         console.log(projects[i]);
-        var newProject = structuredClone(template);
+        var newProject = structuredClone(project_template);
         for (let j = 0; j < replaceable.length; j++) {
             let key = replaceable[j];
             let keys = key.split(".");
