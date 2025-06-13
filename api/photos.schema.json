@@ -1,0 +1,66 @@
+{
+    "$id": "photos.schema.json",
+    "title": "Photos Images Schema",
+    "description": "Schema for the /api/photos.json file",
+    "type": "object",
+    "properties": {
+        "desktop": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "format": "file"
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "id": {
+                        "type": "string",
+                        "format": "id"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": ["url", "id", "name"]
+            },
+            "description": "List of desktop background images"
+        },
+        "mobile":  {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "format": "file"
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "id": {
+                        "type": "string",
+                        "format": "id"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": ["url", "id", "name"],
+                "description": "List of photos for mobile"
+            }
+        }
+    }
+}

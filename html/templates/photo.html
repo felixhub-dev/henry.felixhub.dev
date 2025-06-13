@@ -1,0 +1,16 @@
+<div class="photo glass" id="photo-{{id}}">
+    <img class="photo-image" id="photo-{{id}}-image" src="{{url}}" alt="{{name}}" />
+    <div class="photo-info">
+        <a onclick="swapPhoto('{{id}}')" class="photo-main-link"><h2>{{name}}</h2></a>
+        <div class="photo-info" id="photo-{{id}}-info">
+            <div class="photo-location {{photo_location_hidden}}">
+                <img src="/images/icons/location.svg" alt="Taken in" class="photo-location-icon" id="photo-{{id}}-location-icon" />
+                <span class="photo-location-text" id="photo-{{id}}-location-text">{{location}}</span>
+            </div>
+            <div class="photo-date" id="photo-{{id}}-date">
+                <img src="" alt="Taken on" class="photo-date-icon" id="photo-{{id}}-date-icon" />
+                <span class="photo-date-text" id="photo-{{id}}-date-text">{{date}}</span>
+            </div>
+        </div>
+    </div>
+</div>
