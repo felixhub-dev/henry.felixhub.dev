@@ -74,7 +74,7 @@
         {
             "name": "nltk",
             "id": "nltk",
-            "description": "NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.",
+            "description": "The Natural Language Toolkit is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.",
             "links": {
                 "icon": "https://avatars.githubusercontent.com/u/124114?s=200&v=4",
                 "url": "https://nltk.org/",
