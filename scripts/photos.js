@@ -54,5 +54,5 @@ function renderPhotos() {
 }
 
 function swapPhoto(id) {
-    console.log("stuff")
+    $('background-image').src = id;
 }
