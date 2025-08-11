@@ -1,7 +1,7 @@
 let photos;
 let photo_template;
 function photosOnLoad() {
-    return; // still a WIP
+    // return; // still a WIP
     console.log("photosOnLoad");
     fetch("/api/photos.json").then(response => 
         response = response.text()
@@ -41,12 +41,18 @@ function renderPhotos() {
         console.log(photo);
         var newPhoto = structuredClone(photo_template);
         newPhoto = newPhoto.replaceAll(
-            "{{url}}", photo.url).replaceAll(
+            "{{url}}", `/images/${isOnMobile() ? 'mobile' : 'desktop'}/` + photo.url).replaceAll(
             "{{name}}", photo.name).replaceAll(
             "{{id}}", photo.id).replaceAll(
-            "{{location}}", photo.location)
+            "{{date}}", (new Date(photo.date)).toDateString()).replaceAll(
+            "{{location}}", photo.location).replaceAll(
+            "{{photo_location_hidden}}", photo.location ? "" : "hidden")
         $('photos-container').innerHTML += newPhoto;
     }
 
     $('photos-container').classList.remove("hidden");
+}
+
+function swapPhoto(id) {
+    console.log("stuff")
 }

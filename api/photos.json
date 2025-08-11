@@ -1,5 +1,5 @@
 {
-    "$schema": "backgrounds.schema.json",
+    "$schema": "photos.schema.json",
     "desktop": [
         {
             "url": "alaska.webp",
@@ -13,7 +13,9 @@
         {
             "url": "alaska-mobile.webp",
             "location": "Anchorage, Alaska",
-            "date": "2024-07-19T03:55:23Z"
+            "date": "2024-07-19T03:55:23Z",
+            "name": "Alaskan Ridge",
+            "id": "alaska-ridge"
         }
     ]
 }
