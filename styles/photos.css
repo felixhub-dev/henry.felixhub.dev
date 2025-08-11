@@ -1,11 +1,12 @@
-.photo-image {
-    width: 100%;
-}
 .photo {
     margin-left: 5px;
     margin-right: 5px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     padding: 2px 5%;
+}
+.photo-image {
+    width: 100%;
+    border-radius: 10px;
 }
 .photo-info {
     display: grid;
