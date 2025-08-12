@@ -51,6 +51,7 @@ function renderPhotos() {
     }
 
     $('photos-container').classList.remove("hidden");
+    $('more-photos-label').classList.remove('hidden');
 }
 
 function swapPhoto(id) {
