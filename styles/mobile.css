@@ -1,0 +1,11 @@
+/* This file is loaded from the HTML when isOnMobile is set */
+.mobile #overlay {
+    left: unset !important;
+    right: 50vw;
+}
+.mobile { /* override :root for mobile */
+    --contact-grid-rows: 3;
+    --contact-grid-columns: 2;
+    --background-width: auto;
+    --background-height: 100vh;
+}

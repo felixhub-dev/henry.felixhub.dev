@@ -105,3 +105,5 @@ if (document.location.hash) {
     document.location.hash = "";
     loadSubPage(location.substring(1), true); // remove the #
 }
+// mobile
+resizeHandler();

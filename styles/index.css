@@ -1,6 +1,7 @@
 @import url('/styles/projects.css');
 @import url('/styles/contact.css');
 @import url('/styles/photos.css');
+@import url('/styles/mobile.css');
 
 :root {
     --contact-grid-rows: 2;
@@ -8,12 +9,6 @@
     overflow-x: hidden;
     --background-width: 100vw;
     --background-height: auto;
-}
-.mobile { /* override :root for mobile */
-    --contact-grid-rows: 3;
-    --contact-grid-columns: 2;
-    --background-width: auto;
-    --background-height: 100vh;
 }
 
 .hidden {
