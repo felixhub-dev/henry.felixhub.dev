@@ -24,10 +24,11 @@ resizeHandler = () => {
     let mobileCSS = $('mobile-css');
     if (isOnMobile()) {
         this.document.body.classList.add("mobile")
+        $('background-image').src = $('background-image').src.replace("desktop", "mobile");
     } else {
         this.document.body.classList.remove("mobile")
+        $('background-image').src = $('background-image').src.replace("mobile", "desktop");
     }
-    $('background-image').src = '/images/mobile/alaska-mobile.webp';
 }
 
 window.addEventListener('resize', resizeHandler);
