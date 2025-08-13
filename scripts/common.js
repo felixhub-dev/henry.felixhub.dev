@@ -21,7 +21,6 @@ function isOnMobile() {
 // Mobile CSS
 resizeHandler = () => {
     console.log("New dimensions: "+this.window.innerWidth+"x"+this.window.innerHeight)
-    let mobileCSS = $('mobile-css');
     if (isOnMobile()) {
         this.document.body.classList.add("mobile")
         $('background-image').src = $('background-image').src.replace("desktop", "mobile");

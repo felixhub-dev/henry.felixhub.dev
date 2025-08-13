@@ -21,6 +21,19 @@
     color: white;
     transition: background-color 0.3s ease-in-out;
 }
+.spacer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease-in-out;
+    width: auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
 @keyframes shake {
     0%, 100% { transform: translateY(5px); }
     25% { transform: translateY(-5px); }
