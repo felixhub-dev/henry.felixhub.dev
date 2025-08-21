@@ -151,5 +151,5 @@
     left: 0;
     z-index: 100;
     border-radius: 5px 5px 5px 0px; /* should be squarely in the bottom left corner. */
-    padding-right: .5px;
+    padding: 2px;
 }
