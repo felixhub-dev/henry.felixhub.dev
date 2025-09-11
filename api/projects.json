@@ -38,6 +38,17 @@
             }
         },
         {
+            "name": "Nixpkgs",
+            "id": "nixpkgs",
+            "description": "A collection of over 120,000 software packages that can be installed with the Nix package manager.",
+            "links": {
+                "icon": "https://nixos.org/favicon.svg",
+                "url": "{{github}}",
+                "github": "https://github.com/nixos/nixpkgs",
+                "discord": "https://discord.gg/VWfNTgMJmG"
+            }
+        },
+        {
             "name": "Insomnia",
             "id": "insomnia",
             "description": "An open-source API client for GraphQL and REST.",
@@ -74,7 +85,7 @@
         {
             "name": "nltk",
             "id": "nltk",
-            "description": "The Natural Language Toolkit is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.",
+            "description": "A suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.",
             "links": {
                 "icon": "https://avatars.githubusercontent.com/u/124114?s=200&v=4",
                 "url": "https://nltk.org/",
