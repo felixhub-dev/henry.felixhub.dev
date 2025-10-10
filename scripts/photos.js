@@ -41,7 +41,7 @@ function renderPhotos() {
         console.log(photo);
         var newPhoto = structuredClone(photo_template);
         newPhoto = newPhoto.replaceAll(
-            "{{url}}", `/images/${isOnMobile() ? 'mobile' : 'desktop'}/` + photo.url).replaceAll(
+            "{{url}}", "/images/photos/" + photo.url).replaceAll(
             "{{name}}", photo.name).replaceAll(
             "{{id}}", photo.id).replaceAll(
             "{{date}}", (new Date(photo.date)).toDateString()).replaceAll(
@@ -55,5 +55,6 @@ function renderPhotos() {
 }
 
 function swapPhoto(id) {
+    if (isOnMobile()) { return; }
     $('background-image').src = id;
 }

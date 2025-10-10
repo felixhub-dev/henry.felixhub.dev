@@ -23,10 +23,8 @@ resizeHandler = () => {
     console.log("New dimensions: "+this.window.innerWidth+"x"+this.window.innerHeight)
     if (isOnMobile()) {
         this.document.body.classList.add("mobile")
-        $('background-image').src = $('background-image').src.replace("desktop", "mobile");
     } else {
         this.document.body.classList.remove("mobile")
-        $('background-image').src = $('background-image').src.replace("mobile", "desktop");
     }
 }
 
