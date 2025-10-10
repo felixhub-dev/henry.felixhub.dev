@@ -1,19 +1,10 @@
 {
     "$schema": "photos.schema.json",
-    "desktop": [
+    "photos": [
         {
-            "url": "alaska.webp",
+            "file": "alaska.webp",
             "location": "Anchorage, Alaska",
             "date": "2024-07-19T03:54:35Z",
-            "name": "Alaskan Ridge",
-            "id": "alaska-ridge"
-        }
-    ],
-    "mobile": [
-        {
-            "url": "alaska.webp",
-            "location": "Anchorage, Alaska",
-            "date": "2024-07-19T03:55:23Z",
             "name": "Alaskan Ridge",
             "id": "alaska-ridge"
         }

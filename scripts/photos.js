@@ -10,7 +10,7 @@ function photosOnLoad() {
         JSON.parse(response.replaceAll(/\/\/ (.*?)\n/gi,"").replaceAll(/\/\* (.*?)\*\//gmi, "")) // remove comments
     ).then(data => {
         console.log(data);
-        photos = data;
+        photos = data.photos;
         if (!!photos && !!photo_template) { // either this or the other one will finish first, so it should *in theory* only run once
             renderPhotos();
         }
@@ -29,11 +29,6 @@ function photosOnLoad() {
 function renderPhotos() {
     console.log("renderProjects");
     $('photos-loading').classList.add("hidden");
-    if (isOnMobile()) {
-        photos = photos.mobile;
-    } else {
-        photos = photos.desktop;
-    }
 
     // Dynamically fill photos
     for (let i = 0; i < photos.length; i++) {
@@ -41,7 +36,7 @@ function renderPhotos() {
         console.log(photo);
         var newPhoto = structuredClone(photo_template);
         newPhoto = newPhoto.replaceAll(
-            "{{url}}", "/images/photos/" + photo.url).replaceAll(
+            "{{url}}", "/images/photos/" + photo.file).replaceAll(
             "{{name}}", photo.name).replaceAll(
             "{{id}}", photo.id).replaceAll(
             "{{date}}", (new Date(photo.date)).toDateString()).replaceAll(
