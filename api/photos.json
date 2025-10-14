@@ -7,6 +7,13 @@
             "date": "2024-07-19T03:54:35Z",
             "name": "Alaskan Ridge",
             "id": "alaska-ridge"
-        }
+        },
+	{
+	    "file": "devils_lake.webp",
+	    "location": "Devil's Lake, WI",
+	    "date": "2025-10-14T17:23:00Z",
+	    "name": "Devil's Lake",
+	    "id": "devils_lake"
+	}
     ]
 }
