@@ -17,7 +17,6 @@
             "id": "felixhub",
             "description": "This website!",
             "links": {
-                // "icon": "https://felixhub.dev/favicon.ico",
                 "icon": "https://cdn.discordapp.com/icons/1366276472548888759/7a997464ccd221690a7450bdbda5de90.webp?size=160&quality=lossless",
                 "url": "https://felixhub.dev",
                 "github": "https://github.com/felixhub-dev/felixhub.dev",
@@ -46,6 +45,16 @@
                 "url": "{{github}}",
                 "github": "https://github.com/nixos/nixpkgs",
                 "discord": "https://discord.gg/VWfNTgMJmG"
+            }
+        },
+        {
+            "name": "Luamake",
+            "id": "luamake",
+            "description": "Use Lua as a buildscript.",
+            "links": {
+                "icon": "https://www.lua.org/images/lua-logo.gif",
+                "url": "{{github}}",
+                "github": "https://github.com/actboy168/luamake"
             }
         },
         {
