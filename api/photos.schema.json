@@ -6,7 +6,7 @@
     "properties": {
         "$schema":  {
             "type": "string",
-            "format": "uri"
+            "format": "file"
         },
         "photos": {
             "type": "array",

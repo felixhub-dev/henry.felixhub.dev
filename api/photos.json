@@ -1,6 +1,84 @@
 {
     "$schema": "photos.schema.json",
+    "$comment": "All times are in UTC",
     "photos": [
+        {
+            "file": "willis_tower.webp",
+            "location": "Chicago, Illinois",
+            "date": "2022-06-07T01:01:00Z",
+            "name": "Willis Tower",
+            "id": "willis_tower"
+        },
+        {
+            "file": "silver_beach.webp",
+            "location": "St. Joseph, MI",
+            "date": "2022-09-03T01:23:00Z",
+            "name": "Silver Beach",
+            "id": "silver_beach"
+        },
+        {
+            "file": "white_house.webp",
+            "location": "Washington, D.C.",
+            "date": "2023-03-16T17:41:00Z",
+            "name": "White House",
+            "id": "white_house"
+        },
+        {
+            "file": "eiffel_tower.webp",
+            "location": "Paris, France",
+            "date": "2023-07-22T10:08:00Z",
+            "name": "Eiffel Tower",
+            "id": "eiffel_tower"
+        },
+        {
+            "file": "cloud_sea.webp",
+            "location": "Somewhere above New Zealand",
+            "date": "2023-12-14T21:33:00Z",
+            "name": "Clouds",
+            "id": "cloud_sea"
+        },
+        {
+            "file": "wanaka_tree.webp",
+            "location": "Lake Hawea, New Zealand",
+            "date": "2023-12-15T04:30:00Z",
+            "name": "Wanaka Tree",
+            "id": "wanaka_tree"
+        },
+        {
+            "file": "crucible_lake_ridge.webp",
+            "location": "Mount Aspiring National Park, New Zealand",
+            "date": "2023-12-16T03:01:00Z",
+            "name": "Crucible Lake Ridge",
+            "id": "crucible_lake_ridge"
+        },
+        {
+            "file": "crucible_riverbank.webp",
+            "location": "Lake Hawea, New Zealand",
+            "date": "2023-12-17T19:46:00Z",
+            "name": "Crucible Riverbank",
+            "id": "crucible_riverbank"
+        },
+        {
+            "file": "portland_waterfall.webp",
+            "location": "Multnomah Falls, Portland, OR",
+            "date": "2023-12-27T08:44:00Z",
+            "name": "Corbett Waterfall",
+            "id": "portland_waterfall"
+        },
+        {
+            "file": "solar_eclipse.webp",
+            "location": "Lake Forest, IL",
+            "date": "2024-04-08T19:07:00Z",
+            "name": "Solar Eclipse",
+            "id": "solar_eclipse"
+        },
+        {
+            "file": "cooper_landing.webp",
+            "location": "Cooper Landing, Anchorage, Alaska",
+            "date": "2024-07-14T18:39:00Z",
+            "name": "Cooper Landing",
+            "id": "cooper_landing"
+        },
         {
             "file": "alaska.webp",
             "location": "Anchorage, Alaska",
@@ -8,12 +86,47 @@
             "name": "Alaskan Ridge",
             "id": "alaska-ridge"
         },
-	{
-	    "file": "devils_lake.webp",
-	    "location": "Devil's Lake, WI",
-	    "date": "2025-10-14T17:23:00Z",
-	    "name": "Devil's Lake",
-	    "id": "devils_lake"
-	}
+        {
+            "file": "kyoto.webp",
+            "location": "Okochi Sanso Garden, Kyoto, Japan",
+            "date": "2024-07-09T02:27:00Z",
+            "name": "Kyoto",
+            "id": "kyoto"
+        },
+        {
+            "file": "kanazawa.webp",
+            "location": "Asamo-gawa River, Kanazawa, Japan",
+            "date": "2024-07-13T08:31:00Z",
+            "name": "Kanazawa Bridge",
+            "id": "kanazawa"
+        },
+        {
+            "file": "kanazawa_castle.webp",
+            "location": "Kanazawa Castle Park, Kanazawa, Japan",
+            "date": "2024-07-13T08:51:00Z",
+            "name": "Kanazawa Castle",
+            "id": "kanazawa_castle"
+        },
+        {
+            "file": "andermatt.webp",
+            "location": "Andermatt, Switzerland",
+            "date": "2024-12-21T10:53:00Z",
+            "name": "Andermatt Village",
+            "id": "andermatt"
+        },
+        {
+            "file": "zermatt.webp",
+            "location": "Zermatt, Switzerland",
+            "date": "2024-12-26T10:50:00Z",
+            "name": "Zermatt",
+            "id": "zermatt"
+        },
+        {
+            "file": "devils_lake.webp",
+            "location": "Devil's Lake, WI",
+            "date": "2025-10-14T17:23:00Z",
+            "name": "Devil's Lake",
+            "id": "devils_lake"
+        }
     ]
 }
